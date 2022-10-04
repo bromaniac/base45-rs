@@ -1,0 +1,12 @@
+[package]
+name = "base45-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Fredrik Broman <fredrik.broman@gmail.com>"]
+license = "UNLICENSE"
+readme = "README.md"
+repository = "https://github.com/bromaniac/base45-rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
