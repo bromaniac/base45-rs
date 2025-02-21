@@ -25,7 +25,10 @@ fn new_encode_lut() -> HashMap<usize, char> {
 
 fn new_decode_lut() -> HashMap<char, usize> {
     let base45_charset = new_encode_lut();
-    return base45_charset.iter().map(|(k, v)| (v.clone(), k.clone())).collect();
+    return base45_charset
+        .iter()
+        .map(|(k, v)| (v.clone(), k.clone()))
+        .collect();
 }
 
 pub fn b45encode(v: Vec<u8>) -> String {
